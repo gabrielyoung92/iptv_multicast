@@ -1,13 +1,17 @@
 # iptv_multicast
+As per https://dirtyoptics.com/raspberry-pi-tv-server-using-tvheadend/   https://www.youtube.com/playlist?list=PLGvkW0sr-RWZHi-5XtnWxIjMLhjG8UffL
+
 As per https://github.com/fishscene/TV2MultiCast
 
-As per https://www.youtube.com/playlist?list=PLGvkW0sr-RWZHi-5XtnWxIjMLhjG8UffL
 
 ## Hardware
 [Hardware](https://www.amazon.com.au/dp/B008D8K50Q)
 DVB-T210 
 
 dmegs output
+
+Ensure the device is in "Warm State" !!
+```
 [68295.779704] usb 1-1.2: new high-speed USB device number 7 using dwc_otg
 [68295.880469] usb 1-1.2: New USB device found, idVendor=0572, idProduct=c68a, bcdDevice= 8.00
 [68295.880488] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
@@ -32,3 +36,84 @@ dmegs output
 [68296.351809] usb 1-1.2: dvb_usb_v2: schedule remote query interval to 300 msecs
 [68296.351822] usb 1-1.2: dvb_usb_v2: 'MyGica Mini DVB-(T/T2/C) USB Stick T230C v2' successfully initialized and connected
 [68296.351954] usbcore: registered new interface driver dvb_usb_dvbsky
+```
+
+device
+```
+/dev/dvb/adapter0 
+```
+
+## Software Install
+Install all updates, and install needed applications:
+
+
+Make sure computer is fully up-to-date.
+```
+sudo apt-get update && sudo apt-get upgrade -y
+````
+
+Install required software
+```
+sudo apt-get install dvb-apps dvblast -y
+```
+
+There are 2 methods to scan.  one is to use "scan"  the other is to use "dvbscan"
+
+## "scan"
+First we need to get a pre-defined list of frequencies found in
+```
+cd /usr/share/dvb/dvb-legacy/dvb-t
+```
+Perform a 'ls' to show all areas.  Find your local file such as 'au-GoldCoast'
+
+The contents of this file will output (As at 2024-05-08
+```
+T 585500000 7MHz 2/3 NONE QAM64 8k 1/8 NONE
+T 704500000 7MHz 3/4 NONE QAM64 8k 1/8 NONE
+T 809500000 7MHz 3/4 NONE QAM64 8k 1/16 NONE
+T 788500000 7MHz 3/4 NONE QAM64 8k 1/16 NONE
+T 634500000 7MHz 3/4 NONE QAM64 8k 1/16 NONE
+T 746500000 7MHz 3/4 NONE QAM64 8k 1/16 NONE
+T 725500000 7MHz 3/4 NONE QAM64 8k 1/16 NONE
+```
+
+We now need to copy the required file into home directory so that we can use it to scan
+```
+cd au-GoldCoast ~
+cd ~
+```
+
+or if you're in the home directory already
+```
+cp /usr/share/dvb/dvb-legacy/dvb-t/au-GoldCoast .
+```
+
+Now we scan for TV using the file copied
+```
+scan au-GoldCoast > output.txt
+```
+
+Outputting to the terminal isn't useful (but we can see if it is working).  Now let's output to a file
+```
+scan au-GoldCoast > output.txt
+```
+
+
+## Method 2 - "dvbscan"
+
+
+Now that the required software is installed we need to create a directory to store the output of scanning.  This will create 'dvblast' in the users home directory
+```
+mkdir ~/dvblast
+```
+
+We now need to scan for TV channels.   TO know the input commands 'man -h'
+
+
+
+
+
+
+
+sudo w_scan -X -c US > ~/dvblast/channels.txt
+nano ~/dvblast/channels.txt
