@@ -3,6 +3,11 @@ As per https://dirtyoptics.com/raspberry-pi-tv-server-using-tvheadend/   https:/
 
 As per https://github.com/fishscene/TV2MultiCast
 
+https://www.hospitableit.com/howto/streaming-dvb-t-over-an-ip-network-using-mumudvb-on-a-raspberry-pi-3/
+
+
+https://angrytechnician.wordpress.com/category/technical-articles/iptv/
+
 
 ## Hardware
 [Hardware](https://www.amazon.com.au/dp/B008D8K50Q)
@@ -55,6 +60,11 @@ sudo apt-get update && sudo apt-get upgrade -y
 Install required software
 ```
 sudo apt-get install dvb-apps dvblast -y
+sudo apt-get install dtv-scan-tables dvb-apps dvbtune w-scan libdvbcsa1
+
+wget http://ftp.au.debian.org/debian/pool/main/m/mumudvb/mumudvb_1.7.1-1+b1_amd64.deb
+sudo dpkg -i mumudvb_1.7.1-1+b1_amd64.deb
+
 ```
 
 There are 2 methods to scan.  one is to use "scan"  the other is to use "dvbscan"
