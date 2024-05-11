@@ -12,6 +12,8 @@ https://goughlui.com/2013/11/10/project-building-a-dvb-t-tv-tuner-server-with-mu
 
 https://github.com/braice/MuMuDVB
 
+https://mumudvb.net/documentation/asciidoc/mumudvb-2.1.0/README_CONF.html
+
 ## Hardware
 [Hardware](https://www.amazon.com.au/dp/B008D8K50Q)
 DVB-T210 
