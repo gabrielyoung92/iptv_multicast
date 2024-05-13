@@ -132,3 +132,6 @@ We now need to scan for TV channels.   TO know the input commands 'man -h'
 
 sudo w_scan -X -c US > ~/dvblast/channels.txt
 nano ~/dvblast/channels.txt
+
+
+w_scan -f t -c AU -X -v -R 1 -T 1 -O 1 -E 0 -t 2 > channels_advanced.conf
