@@ -135,3 +135,63 @@ nano ~/dvblast/channels.txt
 
 
 w_scan -f t -c AU -X -v -R 1 -T 1 -O 1 -E 0 -t 2 > channels_advanced.conf
+
+
+# IGMP snooping on edge max switch
+enabling IGMP snooping will break IPv6.  need to enable MLD.  can only do this through CLI<be>
+as per https://community.ui.com/questions/How-to-set-up-MLD-snooping-on-EdgeSwitch/9ed69bf6-2751-4585-9af3-f11e8aefea96
+
+```
+ssh into EdgeSwitch
+
+# enable privilage mode
+enable
+
+# enable global config mode
+configure
+
+# enbale MLD snooping globally
+set mld
+
+# enanle MLD snooping on all the switch ports
+set mld interfacemode
+
+# exit global config mode
+exit
+
+# enable vlan mode
+vlan database
+
+# enable MLD snooping on vlan 101
+set mld 101
+
+# exit vlan mode
+exit
+
+# enable global config mode
+configure
+
+# enter port config mode
+interface 0/4
+
+# specify multicast router port as port 0/4 on vlan 101
+set mld mrouter interface
+set mld mrouter 101
+
+# exit port config mode
+exit
+
+# exit global config mode
+exit
+
+# exit privilage mode
+exit
+
+# save config
+write memory
+
+# commands to check MLD snooping status
+show mld
+show mldsnooping mrouter interface 0/4
+show mldsnooping mrouter vlan 101
+```
