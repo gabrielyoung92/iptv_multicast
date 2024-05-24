@@ -48,6 +48,20 @@ Ensure the device is in "Warm State" !!
 [68296.351954] usbcore: registered new interface driver dvb_usb_dvbsky
 ```
 
+```
+[   37.258083] si2157 21-0060: firmware: failed to load dvb_driver_si2157_rom50.fw (-2)
+[   37.258118] si2157 21-0060: firmware: failed to load dvb_driver_si2157_rom50.fw (-2)
+[   37.258153] si2157 21-0060: firmware: failed to load dvb-tuner-si2157-a30-01.fw (-2)
+[   37.258181] si2157 21-0060: firmware: failed to load dvb-tuner-si2157-a30-01.fw (-2)
+```
+
+https://launchpad.net/~b-rad/+archive/ubuntu/kernel+mediatree+hauppauge
+
+
+### install .deb file
+sudo apt install ./<filename>
+
+
 device
 ```
 /dev/dvb/adapter0 
