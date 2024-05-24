@@ -32,6 +32,14 @@ w_scan -cAU -t2 -X > outputX.txt
 			  https://ozdigitaltv.com/transmitters/QLD/165-Mount-Tamborine	  
 
 
+
+| Affiliation | Callsign   | Frequency       |
+| Type        | anything   | here.           |
+| Markdown    | is         | neat and cool!  |
+| Inner cell  | MD support | is WIP \| soon. |
+
+
+
 | **Affiliation	| Callsign	| Frequency	| Power (ERP)	| Pattern	Polarisation**
 |SBS			|SBS40		|613.500 Mhz|	25.00 kW	|Directional	Horizontal	–
 |ABC			|ABC41		|620.500 Mhz|	25.00 kW	|Directional	Horizontal	abc.net.au
