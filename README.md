@@ -136,6 +136,8 @@ nano ~/dvblast/channels.txt
 
 w_scan -f t -c AU -X -v -R 1 -T 1 -O 1 -E 0 -t 2 > channels_advanced.conf
 
+w_scan -ft -CAU -x > output.txt
+
 
 # IGMP snooping on edge max switch
 enabling IGMP snooping will break IPv6.  need to enable MLD.  can only do this through CLI<be>
