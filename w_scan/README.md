@@ -31,22 +31,13 @@ w_scan -cAU -t2 -X > outputX.txt
 			  
 			  https://ozdigitaltv.com/transmitters/QLD/165-Mount-Tamborine	  
 
-
-
-| Affiliation | Callsign   | Frequency       |
-| Type        | anything   | here.           |
-| Markdown    | is         | neat and cool!  |
-| Inner cell  | MD support | is WIP \| soon. |
-
-
-
-| **Affiliation	| Callsign	| Frequency	| Power (ERP)	| Pattern	Polarisation**	|
-|----			|----		|----		|----			|----						|
-|SBS			|SBS40		|613.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|ABC			|ABC41		|620.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Seven			|BTQ42		|627.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Ten			|TVQ44		|641.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Nine			|QTQ45		|648.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Seven			|NEN46		|655.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Nine			|NBN47		|662.500 Mhz|	25.00 kW	|Directional	Horizontal	|
-|Ten			|NRN48		|669.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+| **Affiliation	| Callsign	| Frequency	|Freq Hz	| Power (ERP)	| Pattern	Polarisation**	|
+|----			|----		|----		|----		|----		|----						|
+|SBS			|SBS40		|613.500 Mhz|631500		|25.00 kW	|Directional	Horizontal	|
+|ABC			|ABC41		|620.500 Mhz|620500		|25.00 kW	|Directional	Horizontal	|
+|Seven			|BTQ42		|627.500 Mhz|627500		|25.00 kW	|Directional	Horizontal	|
+|Ten			|TVQ44		|641.500 Mhz|641500		|25.00 kW	|Directional	Horizontal	|
+|Nine			|QTQ45		|648.500 Mhz|648500		|25.00 kW	|Directional	Horizontal	|
+|Seven			|NEN46		|655.500 Mhz|655500		|25.00 kW	|Directional	Horizontal	|
+|Nine			|NBN47		|662.500 Mhz|662500		|25.00 kW	|Directional	Horizontal	|
+|Ten			|NRN48		|669.500 Mhz|669500		|25.00 kW	|Directional	Horizontal	|
