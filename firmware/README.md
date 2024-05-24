@@ -12,5 +12,5 @@ Firmware lives in ```/lib/firmware/```<br>
 
 Two options to install:<br>
 1 - Copy individual required firmware files into /lib/firmware/ and reboot! 
-2 - Install "linux-firmware-hauppauge_0.2.1+xenial_all.deb"  by 
+2 - Install "linux-firmware-hauppauge_0.2.1+xenial_all.deb"  by <br>
 ``` sudo apt install ./linux-firmware-hauppauge_0.2.1+xenial_all.deb``` and reboot
