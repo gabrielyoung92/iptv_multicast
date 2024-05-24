@@ -21,3 +21,13 @@ w_scan -cAU -x > output.txt
 ```
 w_scan -I output.txt -X > outputX.txt
 ```
+
+This is a slower full scan<br>
+w_scan -cAU -t2 -X > outputX.txt
+       -t N   Tuning timeout, increasing may help if device tunes slowly or has bad reception.
+              1 = fastest [default],
+              2 = medium,
+              3 = slowest
+			  
+			  
+
