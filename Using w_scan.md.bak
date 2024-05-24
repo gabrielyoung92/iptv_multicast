@@ -13,11 +13,3 @@ w_scan -cAU -x > output.txt
 ```
 -cAU == Set country to Australia<br>
 -x     generate initial tuning data output for (dvb-)scan instead of VDR channels.conf.
-
-## Using an initial Scan File
--I 	FILE import dvbscan initial_tuning_data
--X  generate zap/czap/xine output instead of VDR channels.conf.
-
-```
-w_scan -I output.txt -X > outputX.txt
-```
