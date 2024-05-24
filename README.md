@@ -195,3 +195,31 @@ show mld
 show mldsnooping mrouter interface 0/4
 show mldsnooping mrouter vlan 101
 ```
+
+
+
+# tvheadend
+
+Install curl
+```
+sudo apt install curl -y
+```
+
+Setup the official source as per<be>
+https://tvheadend.org/p/downloads
+
+```
+curl -1sLf 'https://dl.cloudsmith.io/public/tvheadend/tvheadend/setup.deb.sh' | sudo -E bash
+```
+
+Install
+```
+sudo apt install tvheadend -y
+```
+```
+ After installation Tvheadend can be accessed via HTTP on port 9981. From 
+this machine you can point your web-browser to http://localhost:9981/.
+
+If you want to completely remove configuration, use your package managers
+--purge option, e.g, apt-get remove --purge tvheadend*
+```
