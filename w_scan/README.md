@@ -40,13 +40,13 @@ w_scan -cAU -t2 -X > outputX.txt
 
 
 
-| **Affiliation	| Callsign	| Frequency	| Power (ERP)	| Pattern	Polarisation**|
-|----			|----		|----		
-|SBS			|SBS40		|613.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|ABC			|ABC41		|620.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Seven			|BTQ42		|627.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Ten			|TVQ44		|641.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Nine			|QTQ45		|648.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Seven			|NEN46		|655.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Nine			|NBN47		|662.500 Mhz|	25.00 kW	|Directional	Horizontal|
-|Ten			|NRN48		|669.500 Mhz|	25.00 kW	|Directional	Horizontal|
+| **Affiliation	| Callsign	| Frequency	| Power (ERP)	| Pattern	Polarisation**	|
+|----			|----		|----		|----			|----						|
+|SBS			|SBS40		|613.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|ABC			|ABC41		|620.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Seven			|BTQ42		|627.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Ten			|TVQ44		|641.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Nine			|QTQ45		|648.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Seven			|NEN46		|655.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Nine			|NBN47		|662.500 Mhz|	25.00 kW	|Directional	Horizontal	|
+|Ten			|NRN48		|669.500 Mhz|	25.00 kW	|Directional	Horizontal	|
