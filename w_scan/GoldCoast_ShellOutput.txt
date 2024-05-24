@@ -1,1 +1,1444 @@
+gab@iptv:~$ w_scan -cAU -t3 -O 1 -v -X > outputX_veryslow.txt
+w_scan -cAU -t3 -O 1 -v -X
+w_scan version 20170107 (compiled for DVB API 5.11)
+using settings for AUSTRALIA
+DVB aerial
+DVB-T AU
+scan type TERRESTRIAL, channellist 3
+output format czap/tzap/szap/xine
+WARNING: could not guess your codepage. Falling back to 'UTF-8'
+output charset 'UTF-8', use -C <charset> to override
+Info: using DVB adapter auto detection.
+   check Silicon Labs Si2168:
+           DVB-C ann.A
+           DVB-T2
+           DVB-T
+        /dev/dvb/adapter0/frontend0 -> TERRESTRIAL "Silicon Labs Si2168": very good :-))
 
+Using TERRESTRIAL frontend (adapter /dev/dvb/adapter0/frontend0)
+-_-_-_-_ Getting frontend capabilities-_-_-_-_
+Using DVB API 5.11
+frontend 'Silicon Labs Si2168' supports
+DVB-T2
+INVERSION_AUTO
+QAM_AUTO
+TRANSMISSION_MODE_AUTO
+GUARD_INTERVAL_AUTO
+HIERARCHY_AUTO
+FEC_AUTO
+BANDWIDTH_AUTO not supported, trying 6/7/8 MHz.
+FREQ (48.00MHz ... 870.00MHz)
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+   check Silicon Labs Si2168:
+           DVB-C ann.A
+           DVB-T2
+           DVB-T
+Scanning DVB-T...
+Scanning 7MHz frequencies...
+177500: (time: 00:00.008)
+        (0.356sec): SC (0x3)
+        (0.356sec) signal
+        (0.460sec):  (0x0)
+        (0.712sec): SC (0x3)
+        (0.816sec):  (0x0)
+        (1.296sec): SC (0x3)
+        (1.400sec):  (0x0)
+        (1.652sec): SC (0x3)
+        (1.808sec):  (0x0)
+        (2.264sec): SC (0x3)
+        (2.368sec):  (0x0)
+        (2.624sec): SC (0x3)
+        (2.776sec):  (0x0)
+        (3.220sec): SC (0x3)
+        (3.324sec):  (0x0)
+        (3.628sec): SC (0x3)
+        (3.732sec):  (0x0)
+177625: (time: 00:03.840)
+        (0.356sec): SC (0x3)
+        (0.356sec) signal
+        (0.460sec):  (0x0)
+        (0.712sec): SC (0x3)
+        (0.816sec):  (0x0)
+        (1.308sec): SC (0x3)
+        (1.412sec):  (0x0)
+        (1.664sec): SC (0x3)
+        (1.768sec):  (0x0)
+        (2.228sec): SC (0x3)
+        (2.380sec):  (0x0)
+        (2.636sec): SC (0x3)
+        (2.736sec):  (0x0)
+        (3.224sec): SC (0x3)
+        (3.328sec):  (0x0)
+        (3.584sec): SC (0x3)
+        (3.736sec):  (0x0)
+184500: (time: 00:07.676)
+        (0.356sec): SC (0x3)
+        (0.356sec) signal
+        (0.512sec):  (0x0)
+        (0.816sec): SC (0x3)
+        (0.920sec):  (0x0)
+        (1.360sec): SC (0x3)
+        (1.512sec):  (0x0)
+        (1.820sec): SC (0x3)
+        (1.920sec):  (0x0)
+        (2.328sec): SC (0x3)
+        (2.432sec):  (0x0)
+        (2.788sec): SC (0x3)
+        (2.924sec):  (0x0)
+        (3.280sec): SC (0x3)
+        (3.384sec):  (0x0)
+        (3.688sec): SC (0x3)
+        (3.840sec):  (0x0)
+184625: (time: 00:11.516)
+        (0.408sec): SC (0x3)
+        (0.408sec) signal
+        (0.508sec):  (0x0)
+        (0.816sec): SC (0x3)
+        (0.916sec):  (0x0)
+        (1.324sec): SC (0x3)
+        (1.476sec):  (0x0)
+        (1.788sec): SC (0x3)
+        (1.888sec):  (0x0)
+        (2.296sec): SC (0x3)
+        (2.400sec):  (0x0)
+        (2.756sec): SC (0x3)
+        (2.896sec):  (0x0)
+        (3.256sec): SC (0x3)
+        (3.352sec):  (0x0)
+        (3.716sec): SC (0x3)
+        (3.848sec):  (0x0)
+191500: (time: 00:15.416)
+        (0.404sec): SC (0x3)
+        (0.404sec) signal
+        (0.560sec):  (0x0)
+        (0.868sec): SC (0x3)
+        (0.972sec):  (0x0)
+        (1.328sec): SC (0x3)
+        (1.432sec):  (0x0)
+        (1.788sec): SC (0x3)
+        (1.892sec):  (0x0)
+        (2.300sec): SC (0x3)
+        (2.452sec):  (0x0)
+        (2.808sec): SC (0x3)
+        (2.892sec):  (0x0)
+        (3.252sec): SC (0x3)
+        (3.400sec):  (0x0)
+        (3.708sec): SC (0x3)
+        (3.812sec):  (0x0)
+191625: (time: 00:19.328)
+        (0.408sec): SC (0x3)
+        (0.408sec) signal
+        (0.512sec):  (0x0)
+        (0.868sec): SC (0x3)
+        (1.004sec):  (0x0)
+        (1.412sec): SC (0x3)
+        (1.516sec):  (0x0)
+        (1.820sec): SC (0x3)
+        (1.956sec):  (0x0)
+        (2.312sec): SC (0x3)
+        (2.468sec):  (0x0)
+        (2.772sec): SC (0x3)
+        (2.924sec):  (0x0)
+        (3.284sec): SC (0x3)
+        (3.384sec):  (0x0)
+        (3.740sec): SC (0x3)
+        (3.876sec):  (0x0)
+198500: (time: 00:23.204)
+198625: (time: 00:24.960)
+205500: (time: 00:26.668)
+205625: (time: 00:28.417)
+212500: (time: 00:30.129)
+212625: (time: 00:31.873)
+219500: (time: 00:33.581)
+        (0.460sec): SC (0x3)
+        (0.460sec) signal
+        (0.564sec):  (0x0)
+        (0.916sec): SCL (0x1F)
+        (0.916sec) lock
+        signal ok:      QAM_AUTO f = 219500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 219500 kHz I999B7C999D999T999G999Y999 (0:0:0))
+219625: (time: 00:36.957)
+        (0.460sec): SC (0x3)
+        (0.460sec) signal
+        (0.560sec):  (0x0)
+        (0.920sec): SCL (0x1F)
+        (0.920sec) lock
+        signal ok:      QAM_AUTO f = 219625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 219625 kHz I999B7C999D999T999G999Y999 (0:0:0))
+226500: (time: 00:39.941)
+        (0.460sec): SC (0x3)
+        (0.460sec) signal
+        (0.508sec): SCL (0x1F)
+        (0.508sec) lock
+        signal ok:      QAM_AUTO f = 226500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 226500 kHz I999B7C999D999T999G999Y999 (0:0:0))
+226625: (time: 00:42.941)
+        (0.460sec): SCL (0x1F)
+        (0.460sec) signal
+        (0.460sec) lock
+        signal ok:      QAM_AUTO f = 226625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 226625 kHz I999B7C999D999T999G999Y999 (0:0:0))
+480500: (time: 00:45.941)
+480625: (time: 00:47.669)
+487500: (time: 00:49.409)
+487625: (time: 00:51.121)
+494500: (time: 00:52.869)
+494625: (time: 00:54.585)
+501500: (time: 00:56.314)
+501625: (time: 00:58.046)
+508500: (time: 00:59.770)
+508625: (time: 01:01.510)
+515500: (time: 01:03.222)
+515625: (time: 01:04.954)
+522500: (time: 01:06.682)
+522625: (time: 01:08.406)
+529500: (time: 01:10.138)
+529625: (time: 01:11.858)
+536500: (time: 01:13.602)
+        (0.864sec): SC (0x3)
+        (0.864sec) signal
+        (1.000sec):  (0x0)
+        (1.460sec): SC (0x3)
+        (1.564sec):  (0x0)
+        (2.364sec): SC (0x3)
+        (2.516sec):  (0x0)
+        (3.284sec): SC (0x3)
+        (3.384sec):  (0x0)
+        (4.344sec): SC (0x3)
+536625: (time: 01:17.946)
+        (0.404sec): SC (0x3)
+        (0.404sec) signal
+        (0.560sec):  (0x0)
+        (0.916sec): SC (0x3)
+        (1.016sec):  (0x0)
+        (1.476sec): SC (0x3)
+        (1.580sec):  (0x0)
+        (2.432sec): SC (0x3)
+        (2.536sec):  (0x0)
+        (3.384sec): SC (0x3)
+        (3.484sec):  (0x0)
+543500: (time: 01:21.838)
+        (0.868sec): SC (0x3)
+        (0.868sec) signal
+        (0.992sec):  (0x0)
+        (1.552sec): SC (0x3)
+        (1.656sec):  (0x0)
+        (2.308sec): SC (0x3)
+        (2.460sec):  (0x0)
+        (3.776sec): SC (0x3)
+        (3.876sec):  (0x0)
+        (4.236sec): SC (0x3)
+543625: (time: 01:26.179)
+        (0.864sec): SC (0x3)
+        (0.864sec) signal
+        (0.996sec):  (0x0)
+        (1.456sec): SC (0x3)
+        (1.608sec):  (0x0)
+        (2.424sec): SC (0x3)
+        (2.524sec):  (0x0)
+        (3.384sec): SC (0x3)
+        (3.484sec):  (0x0)
+        (4.340sec): SC (0x3)
+550500: (time: 01:30.519)
+        (0.408sec): SC (0x3)
+        (0.408sec) signal
+        (0.508sec):  (0x0)
+        (0.764sec): SC (0x3)
+        (0.868sec):  (0x0)
+        (1.480sec): SC (0x3)
+        (1.632sec):  (0x0)
+        (1.888sec): SC (0x3)
+        (1.972sec):  (0x0)
+        (2.432sec): SC (0x3)
+        (2.536sec):  (0x0)
+        (2.840sec): SC (0x3)
+        (2.936sec):  (0x0)
+        (3.292sec): SC (0x3)
+        (3.392sec):  (0x0)
+        (3.648sec): SC (0x3)
+        (3.800sec):  (0x0)
+550625: (time: 01:34.411)
+        (0.408sec): SC (0x3)
+        (0.408sec) signal
+        (0.508sec):  (0x0)
+        (0.816sec): SC (0x3)
+        (0.916sec):  (0x0)
+        (1.352sec): SC (0x3)
+        (1.452sec):  (0x0)
+        (1.760sec): SC (0x3)
+        (1.812sec): SCL (0x1F)
+        (1.812sec) lock
+        signal ok:      QAM_AUTO f = 550625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 550625 kHz I999B7C999D999T999G999Y999 (0:0:0))
+557500: (time: 01:38.939)
+        (0.508sec): SC (0x3)
+        (0.508sec) signal
+        (0.612sec):  (0x0)
+        (1.436sec): SC (0x3)
+        (1.536sec):  (0x0)
+        (2.404sec): SC (0x3)
+        (2.508sec):  (0x0)
+        (3.360sec): SC (0x3)
+        (3.460sec):  (0x0)
+557625: (time: 01:42.943)
+        (0.560sec): SC (0x3)
+        (0.560sec) signal
+        (0.660sec):  (0x0)
+        (1.508sec): SC (0x3)
+        (1.660sec):  (0x0)
+        (2.424sec): SC (0x3)
+        (2.528sec):  (0x0)
+        (3.380sec): SC (0x3)
+        (3.480sec):  (0x0)
+564500: (time: 01:46.983)
+564625: (time: 01:48.695)
+571500: (time: 01:50.431)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1284)
+        QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1284)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:0:1284)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12840:xxxx)
+        QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:0:1284) : updating network_id -> (0:12840:1284)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:12840:1284)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4115:12840:1284)
+        find_transponder(4115:12840:1284):          -> found 'new_transponders(000)'  QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:12840:1284) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 571500 kHz I999B7C999D999T999G999Y999 (0:12840:1284)) 0x0000
+        to (QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          =============================================================
+571625: (time: 01:53.900)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 571625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1284)
+        QAM_AUTO f = 571625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1284)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_AUTO f = 571625 kHz I999B7C999D999T999G999Y999 (0:0:1284)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12840:xxxx)
+        QAM_AUTO f = 571625 kHz I999B7C999D999T999G999Y999 (0:0:1284) : updating network_id -> (0:12840:1284)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(001): QAM_AUTO f = 571625 kHz I999B7C999D999T999G999Y999 (0:12840:1284) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4115:12840:1284)
+        find_transponder(4115:12840:1284):          -> found 'new_transponders(000)'  QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284) (line 505)
+578500: (time: 02:02.780)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1089)
+        QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1089)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:0:1089)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12839:xxxx)
+        QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:0:1089) : updating network_id -> (0:12839:1089)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:12839:1089)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4114:12839:1089)
+        find_transponder(4114:12839:1089):          -> found 'new_transponders(001)'  QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:12839:1089) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 578500 kHz I999B7C999D999T999G999Y999 (0:12839:1089)) 0x0000
+        to (QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          =============================================================
+578625: (time: 02:03.440)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 578625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1089)
+        QAM_AUTO f = 578625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1089)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_AUTO f = 578625 kHz I999B7C999D999T999G999Y999 (0:0:1089)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12839:xxxx)
+        QAM_AUTO f = 578625 kHz I999B7C999D999T999G999Y999 (0:0:1089) : updating network_id -> (0:12839:1089)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(002): QAM_AUTO f = 578625 kHz I999B7C999D999T999G999Y999 (0:12839:1089) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4114:12839:1089)
+        find_transponder(4114:12839:1089):          -> found 'new_transponders(001)'  QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089) (line 505)
+585500: (time: 02:04.440)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1540)
+        QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1540)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:0:1540)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12841:xxxx)
+        QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:0:1540) : updating network_id -> (0:12841:1540)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:12841:1540)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4116:12841:1540)
+        find_transponder(4116:12841:1540):          -> found 'new_transponders(002)'  QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:12841:1540) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 585500 kHz I999B7C999D999T999G999Y999 (0:12841:1540)) 0x0000
+        to (QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)) 0x405A
+             cell0: center_frequency219500000
+             cell0: center_frequency669500000
+             cell0: center_frequency725500000
+             cell0: center_frequency725625000
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          =============================================================
+585625: skipped (already known transponder)
+592500: (time: 02:11.916)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:2469)
+        QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:2469)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:0:2469)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12930:xxxx)
+        QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:0:2469) : updating network_id -> (0:12930:2469)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:12930:2469)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12930:12930:2469)
+        find_transponder(12930:12930:2469):          -> found 'new_transponders(003)'  QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:12930:2469) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 592500 kHz I999B7C999D999T999G999Y999 (0:12930:2469)) 0x0000
+        to (QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          =============================================================
+592625: (time: 02:13.452)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 592625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:2469)
+        QAM_AUTO f = 592625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:2469)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_AUTO f = 592625 kHz I999B7C999D999T999G999Y999 (0:0:2469)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12930:xxxx)
+        QAM_AUTO f = 592625 kHz I999B7C999D999T999G999Y999 (0:0:2469) : updating network_id -> (0:12930:2469)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(004): QAM_AUTO f = 592625 kHz I999B7C999D999T999G999Y999 (0:12930:2469) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12930:12930:2469)
+        find_transponder(12930:12930:2469):          -> found 'new_transponders(003)'  QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469) (line 505)
+599500: (time: 02:14.448)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1796)
+        QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1796)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:0:1796)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12974:xxxx)
+        QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:0:1796) : updating network_id -> (0:12974:1796)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:12974:1796)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4121:12974:1796)
+        find_transponder(4121:12974:1796):          -> found 'new_transponders(004)'  QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:12974:1796) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 599500 kHz I999B7C999D999T999G999Y999 (0:12974:1796)) 0x0000
+        to (QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)) 0x405A
+             cell0: center_frequency662500000
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          =============================================================
+599625: skipped (already known transponder)
+606500: (time: 02:15.912)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:12960)
+        QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:12960)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:0:12960)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12914:xxxx)
+        QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:0:12960) : updating network_id -> (0:12914:12960)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:12914:12960)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12914:12914:12960)
+        find_transponder(12914:12914:12960):          -> found 'new_transponders(005)'  QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:12914:12960) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 606500 kHz I999B7C999D999T999G999Y999 (0:12914:12960)) 0x0000
+        to (QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          =============================================================
+606625: (time: 02:17.060)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 606625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:12960)
+        QAM_AUTO f = 606625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:12960)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_AUTO f = 606625 kHz I999B7C999D999T999G999Y999 (0:0:12960)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12914:xxxx)
+        QAM_AUTO f = 606625 kHz I999B7C999D999T999G999Y999 (0:0:12960) : updating network_id -> (0:12914:12960)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(006): QAM_AUTO f = 606625 kHz I999B7C999D999T999G999Y999 (0:12914:12960) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12914:12914:12960)
+        find_transponder(12914:12914:12960):          -> found 'new_transponders(005)'  QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960) (line 505)
+613500: (time: 02:18.060)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:816)
+        QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:816)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:0:816)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12802:xxxx)
+        QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:0:816) : updating network_id -> (0:12802:816)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:12802:816)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12802:12802:816)
+        find_transponder(12802:12802:816):          -> found 'new_transponders(006)'  QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:12802:816) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 613500 kHz I999B7C999D999T999G999Y999 (0:12802:816)) 0x0000
+        to (QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          =============================================================
+613625: (time: 02:19.309)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 613625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:816)
+        QAM_AUTO f = 613625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:816)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_AUTO f = 613625 kHz I999B7C999D999T999G999Y999 (0:0:816)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12802:xxxx)
+        QAM_AUTO f = 613625 kHz I999B7C999D999T999G999Y999 (0:0:816) : updating network_id -> (0:12802:816)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(007): QAM_AUTO f = 613625 kHz I999B7C999D999T999G999Y999 (0:12802:816) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12802:12802:816)
+        find_transponder(12802:12802:816):          -> found 'new_transponders(006)'  QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816) (line 505)
+620500: (time: 02:20.321)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:579)
+        QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:579)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:0:579)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12884:xxxx)
+        QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:0:579) : updating network_id -> (0:12884:579)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4112:12884:579)
+        find_transponder(4112:12884:579):          -> found 'new_transponders(007)'  QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:12884:579) (line 505)
+        updating transponder:
+           (QAM_AUTO f = 620500 kHz I999B7C999D999T999G999Y999 (0:12884:579)) 0x0000
+        to (QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)) 0x405A
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+620625: (time: 02:29.253)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 620625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:579)
+        QAM_AUTO f = 620625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:579)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 620625 kHz I999B7C999D999T999G999Y999 (0:0:579)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12884:xxxx)
+        QAM_AUTO f = 620625 kHz I999B7C999D999T999G999Y999 (0:0:579) : updating network_id -> (0:12884:579)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 620625 kHz I999B7C999D999T999G999Y999 (0:12884:579) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4112:12884:579)
+        find_transponder(4112:12884:579):          -> found 'new_transponders(007)'  QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579) (line 505)
+627500: skipped (already known transponder)
+627625: skipped (already known transponder)
+634500: (time: 02:38.953)
+634625: (time: 02:40.705)
+641500: (time: 02:42.417)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 641500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1540)
+        QAM_AUTO f = 641500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1540)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 641500 kHz I999B7C999D999T999G999Y999 (0:0:1540)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12841:xxxx)
+        QAM_AUTO f = 641500 kHz I999B7C999D999T999G999Y999 (0:0:1540) : updating network_id -> (0:12841:1540)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 641500 kHz I999B7C999D999T999G999Y999 (0:12841:1540) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4116:12841:1540)
+        find_transponder(4116:12841:1540):          -> found 'new_transponders(002)'  QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540) (line 505)
+641625: (time: 02:47.890)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 641625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1540)
+        QAM_AUTO f = 641625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1540)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 641625 kHz I999B7C999D999T999G999Y999 (0:0:1540)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12841:xxxx)
+        QAM_AUTO f = 641625 kHz I999B7C999D999T999G999Y999 (0:0:1540) : updating network_id -> (0:12841:1540)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 641625 kHz I999B7C999D999T999G999Y999 (0:12841:1540) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4116:12841:1540)
+        find_transponder(4116:12841:1540):          -> found 'new_transponders(002)'  QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540) (line 505)
+648500: skipped (already known transponder)
+648625: skipped (already known transponder)
+655500: (time: 02:56.886)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 655500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:2469)
+        QAM_AUTO f = 655500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:2469)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 655500 kHz I999B7C999D999T999G999Y999 (0:0:2469)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12930:xxxx)
+        QAM_AUTO f = 655500 kHz I999B7C999D999T999G999Y999 (0:0:2469) : updating network_id -> (0:12930:2469)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 655500 kHz I999B7C999D999T999G999Y999 (0:12930:2469) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12930:12930:2469)
+        find_transponder(12930:12930:2469):          -> found 'new_transponders(003)'  QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469) (line 505)
+655625: (time: 02:57.814)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 655625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:2469)
+        QAM_AUTO f = 655625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:2469)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 655625 kHz I999B7C999D999T999G999Y999 (0:0:2469)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12930:xxxx)
+        QAM_AUTO f = 655625 kHz I999B7C999D999T999G999Y999 (0:0:2469) : updating network_id -> (0:12930:2469)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 655625 kHz I999B7C999D999T999G999Y999 (0:12930:2469) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (12930:12930:2469)
+        find_transponder(12930:12930:2469):          -> found 'new_transponders(003)'  QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469) (line 505)
+662500: (time: 02:58.830)
+        (0.304sec): SCL (0x1F)
+        (0.304sec) signal
+        (0.304sec) lock
+        signal ok:      QAM_AUTO f = 662500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1796)
+        QAM_AUTO f = 662500 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1796)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 662500 kHz I999B7C999D999T999G999Y999 (0:0:1796)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12974:xxxx)
+        QAM_AUTO f = 662500 kHz I999B7C999D999T999G999Y999 (0:0:1796) : updating network_id -> (0:12974:1796)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 662500 kHz I999B7C999D999T999G999Y999 (0:12974:1796) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4121:12974:1796)
+        find_transponder(4121:12974:1796):          -> found 'new_transponders(004)'  QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796) (line 505)
+662625: (time: 02:59.810)
+        (0.308sec): SCL (0x1F)
+        (0.308sec) signal
+        (0.308sec) lock
+        signal ok:      QAM_AUTO f = 662625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+PAT (xxxx:xxxx:1796)
+        QAM_AUTO f = 662625 kHz I999B7C999D999T999G999Y999 (0:0:0) : updating transport_stream_id: -> (0:0:1796)
+          check_duplicate_transponders()
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          new_transponders(008): QAM_AUTO f = 662625 kHz I999B7C999D999T999G999Y999 (0:0:1796)
+          =============================================================
+        initial NIT lookup..
+NIT(act): (xxxx:12974:xxxx)
+        QAM_AUTO f = 662625 kHz I999B7C999D999T999G999Y999 (0:0:1796) : updating network_id -> (0:12974:1796)
+          check_duplicate_transponders()
+          DELETING DUPLICATE TRANSPONDER new_transponders(008): QAM_AUTO f = 662625 kHz I999B7C999D999T999G999Y999 (0:12974:1796) (line:702)
+          ================= list_transponders() =======================
+          new_transponders(000): QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284)
+          new_transponders(001): QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089)
+          new_transponders(002): QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540)
+          new_transponders(003): QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469)
+          new_transponders(004): QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796)
+          new_transponders(005): QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960)
+          new_transponders(006): QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816)
+          new_transponders(007): QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579)
+          =============================================================
+        ----------------------------------------------------------
+        NIT(act): (4121:12974:1796)
+        find_transponder(4121:12974:1796):          -> found 'new_transponders(004)'  QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796) (line 505)
+669500: skipped (already known transponder)
+669625: skipped (already known transponder)
+676500: (time: 03:00.810)
+        (0.356sec): SC (0x3)
+        (0.356sec) signal
+        (0.456sec):  (0x0)
+        (0.712sec): SC (0x3)
+        (0.816sec):  (0x0)
+        (1.288sec): SC (0x3)
+        (1.392sec):  (0x0)
+        (1.648sec): SC (0x3)
+        (1.748sec):  (0x0)
+        (2.260sec): SC (0x3)
+        (2.360sec):  (0x0)
+        (2.616sec): SC (0x3)
+        (2.720sec):  (0x0)
+        (3.228sec): SC (0x3)
+        (3.332sec):  (0x0)
+        (3.584sec): SC (0x3)
+        (3.688sec):  (0x0)
+676625: (time: 03:04.682)
+        (0.460sec): SC (0x3)
+        (0.460sec) signal
+        (0.560sec):  (0x0)
+        (0.816sec): SC (0x3)
+        (0.920sec):  (0x0)
+        (1.292sec): SC (0x3)
+        (1.396sec):  (0x0)
+        (1.648sec): SC (0x3)
+        (1.752sec):  (0x0)
+        (2.260sec): SC (0x3)
+        (2.364sec):  (0x0)
+        (2.616sec): SC (0x3)
+        (2.720sec):  (0x0)
+        (3.208sec): SC (0x3)
+        (3.312sec):  (0x0)
+        (3.564sec): SC (0x3)
+        (3.668sec):  (0x0)
+683500: (time: 03:08.606)
+        (0.356sec): SCL (0x1F)
+        (0.356sec) signal
+        (0.356sec) lock
+        signal ok:      QAM_AUTO f = 683500 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 683500 kHz I999B7C999D999T999G999Y999 (0:0:0))
+683625: (time: 03:11.954)
+        (0.408sec): SC (0x3)
+        (0.408sec) signal
+        (0.460sec): SCL (0x1F)
+        (0.460sec) lock
+        signal ok:      QAM_AUTO f = 683625 kHz I999B7C999D999T999G999Y999 (0:0:0)
+        initial PAT lookup..
+        Info: no data from PAT after 2 seconds
+        deleting (QAM_AUTO f = 683625 kHz I999B7C999D999T999G999Y999 (0:0:0))
+690500: (time: 03:14.955)
+690625: (time: 03:16.707)
+697500: (time: 03:18.415)
+697625: (time: 03:20.167)
+704500: (time: 03:21.879)
+704625: (time: 03:23.611)
+711500: (time: 03:25.327)
+711625: (time: 03:27.075)
+718500: (time: 03:28.791)
+718625: (time: 03:30.535)
+725500: (time: 03:32.243)
+725625: (time: 03:33.991)
+732500: (time: 03:35.703)
+732625: (time: 03:37.439)
+739500: (time: 03:39.159)
+739625: (time: 03:40.903)
+746500: (time: 03:42.616)
+746625: (time: 03:44.348)
+753500: (time: 03:46.092)
+753625: (time: 03:47.844)
+760500: (time: 03:49.552)
+760625: (time: 03:51.308)
+767500: (time: 03:53.056)
+767625: (time: 03:54.768)
+774500: (time: 03:56.520) p[
+
+774625: (time: 03:58.232) [pp
+781500: (time: 03:59.968)
+781625: (time: 04:01.688)
+788500: skipped (already known transponder)
+788625: skipped (already known transponder)
+795500: (time: 04:03.420)
+795625: (time: 04:05.152)
+802500: (time: 04:06.868)
+802625: (time: 04:08.600)
+809500: (time: 04:10.325)
+809625: (time: 04:12.049)
+816500: (time: 04:13.785)
+816625: (time: 04:15.521)
+Scanning DVB-T2...
+177500: (time: 04:17.241)
+177625: (time: 04:18.985)
+184500: skipped (already known transponder)
+184625: skipped (already known transponder)
+191500: (time: 04:20.693)
+191625: (time: 04:22.429)
+198500: (time: 04:24.161)
+198625: (time: 04:25.873)
+205500: (time: 04:27.613)
+205625: (time: 04:29.345)
+212500: (time: 04:31.057)
+212625: (time: 04:32.801)
+219500: (time: 04:34.509)
+219625: (time: 04:36.265)
+226500: skipped (already known transponder)
+226625: skipped (already known transponder)
+480500: (time: 04:37.978)
+480625: (time: 04:39.722)
+487500: (time: 04:41.430)
+487625: (time: 04:43.162)
+494500: (time: 04:44.886)
+494625: (time: 04:46.618)
+501500: (time: 04:48.342)
+501625: (time: 04:50.078)
+508500: (time: 04:51.798)
+508625: (time: 04:53.534)
+515500: (time: 04:55.258)
+515625: (time: 04:56.990)
+522500: (time: 04:58.714)
+522625: (time: 05:00.442)
+529500: (time: 05:02.166)
+529625: (time: 05:03.902)
+536500: (time: 05:05.623)
+536625: (time: 05:07.359)
+543500: (time: 05:09.071)
+543625: (time: 05:10.779)
+550500: (time: 05:12.507)
+550625: (time: 05:14.227)
+557500: (time: 05:15.963)
+557625: (time: 05:17.683)
+564500: (time: 05:19.415)
+564625: (time: 05:21.151)
+571500: (time: 05:22.867)
+571625: (time: 05:24.611)
+578500: (time: 05:26.331)
+578625: (time: 05:28.075)
+585500: skipped (already known transponder)
+585625: skipped (already known transponder)
+592500: (time: 05:29.827)
+592625: (time: 05:31.535)
+599500: skipped (already known transponder)
+599625: skipped (already known transponder)
+606500: (time: 05:33.288)
+606625: (time: 05:34.996)
+613500: (time: 05:36.740)
+613625: (time: 05:38.452)
+620500: (time: 05:40.196)
+620625: (time: 05:41.952)
+627500: skipped (already known transponder)
+627625: skipped (already known transponder)
+634500: (time: 05:43.668)
+634625: (time: 05:45.416)
+641500: (time: 05:47.124)
+641625: (time: 05:48.860)
+648500: skipped (already known transponder)
+648625: skipped (already known transponder)
+655500: (time: 05:50.600)
+655625: (time: 05:52.348)
+662500: (time: 05:54.064)
+662625: (time: 05:55.804)
+669500: skipped (already known transponder)
+669625: skipped (already known transponder)
+676500: (time: 05:57.524)
+676625: (time: 05:59.272)
+683500: (time: 06:01.025)
+683625: (time: 06:02.745)
+690500: (time: 06:04.477)
+690625: (time: 06:06.189)
+697500: (time: 06:07.897)
+697625: (time: 06:09.633)
+704500: (time: 06:11.345)
+704625: (time: 06:13.101)
+711500: (time: 06:14.809)
+711625: (time: 06:16.541)
+718500: (time: 06:18.261)
+718625: (time: 06:19.997)
+725500: (time: 06:21.717)
+725625: (time: 06:23.449)
+732500: (time: 06:25.173)
+732625: (time: 06:26.925)
+739500: (time: 06:28.682)
+739625: (time: 06:30.390)
+746500: (time: 06:32.122)
+746625: (time: 06:33.838)
+753500: (time: 06:35.586)
+753625: (time: 06:37.294)
+760500: (time: 06:39.050)
+760625: (time: 06:40.758)
+767500: (time: 06:42.498)
+767625: (time: 06:44.214)
+774500: (time: 06:45.946)
+774625: (time: 06:47.682)
+781500: (time: 06:49.390)
+781625: (time: 06:51.146)
+788500: skipped (already known transponder)
+788625: skipped (already known transponder)
+795500: (time: 06:52.898)
+795625: (time: 06:54.606)
+802500: (time: 06:56.363)
+802625: (time: 06:58.115)
+809500: (time: 06:59.823)
+809625: (time: 07:01.575)
+816500: (time: 07:03.291)
+816625: (time: 07:05.007)
+tune to: QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284) (time: 07:06.763)
+ (0.304sec): SCL
+PAT (xxxx:xxxx:1284)
+SDT(actual TS, transport_stream_id 1284 (0x0504) )
+        service = 7TWO Gold Coast (Seven Network)
+        service = 7flix Gold Coast (Seven Network)
+        service = 7Bravo Gold Coast (Seven Network)
+        service = 7mateHD Gold Coast (Seven Network)
+        service = RACING.COM (Seven Network)
+        service = TVSN (Seven Network)
+        service = 7 Gold Coast (Seven Network)
+        service = 7 Gold Coast (Seven Network)
+        service = 7HD Gold Coast (Seven Network)
+PAT (xxxx:xxxx:1284)
+PMT 1104 (0x0450) for service 1349 (0x0545)
+PMT 1120 (0x0460) for service 1350 (0x0546)
+PMT 1136 (0x0470) for service 1351 (0x0547)
+PMT 1152 (0x0480) for service 1352 (0x0548)
+PMT 1168 (0x0490) for service 1353 (0x0549)
+PMT 1792 (0x0700) for service 1392 (0x0570)
+PMT 1808 (0x0710) for service 1393 (0x0571)
+PMT 1856 (0x0740) for service 1396 (0x0574)
+PMT 1056 (0x0420) for service 1346 (0x0542)
+NIT(act): (xxxx:12840:xxxx)
+        ----------------------------------------------------------
+        NIT(act): (4115:12840:1284)
+        find_transponder(4115:12840:1284):          -> found 'scanned_transponders(000)'  QAM_64   f = 627500 kHz I999B7C34D0T8G16Y0 (4115:12840:1284) (line 494)
+        Info: no data from NIT(other) after 13 seconds
+tune to: QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089) (time: 07:20.955)
+ (0.308sec): SCL
+PAT (xxxx:xxxx:1089)
+PAT (xxxx:xxxx:1089)
+PMT 257 (0x0101) for service 1138 (0x0472)
+PMT 258 (0x0102) for service 1139 (0x0473)
+PMT 259 (0x0103) for service 1140 (0x0474)
+PMT 262 (0x0106) for service 1143 (0x0477)
+PMT 256 (0x0100) for service 1137 (0x0471)
+PMT 260 (0x0104) for service 1141 (0x0475)
+PMT 261 (0x0105) for service 1142 (0x0476)
+PMT 264 (0x0108) for service 1145 (0x0479)
+PMT 265 (0x0109) for service 1146 (0x047a)
+PMT 263 (0x0107) for service 1144 (0x0478)
+NIT(act): (xxxx:12839:xxxx)
+        ----------------------------------------------------------
+        NIT(act): (4114:12839:1089)
+        find_transponder(4114:12839:1089):          -> found 'scanned_transponders(001)'  QAM_64   f = 648500 kHz I999B7C34D0T8G16Y0 (4114:12839:1089) (line 494)
+SDT(actual TS, transport_stream_id 1089 (0x0441) )
+        service = Channel 9 Gold Coast (Nine Network Australia)
+        service = 9HD Gold Coast (Nine Network Australia)
+        service = 9Go! Gold Coast (Nine Network Australia)
+        service = 9Life Gold Coast (Nine Network Australia)
+        service = 9GemHD Gold Coast (Nine Network Australia)
+        service = Channel 9 Gold Coast (Nine Network Australia)
+        service = 9Gem Gold Coast (Nine Network Australia)
+        service = 9Go!HD Gold Coast (Nine Network Australia)
+        service = 9Rush Gold Coast (Nine Network Australia)
+        service = Extra (Nine Network Australia)
+        Info: no data from NIT(other) after 13 seconds
+tune to: QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540) (time: 07:34.940)
+ (0.304sec): SCL
+PAT (xxxx:xxxx:1540)
+PAT (xxxx:xxxx:1540)
+PMT 262 (0x0106) for service 1607 (0x0647)
+PMT 256 (0x0100) for service 1605 (0x0645)
+PMT 264 (0x0108) for service 1606 (0x0646)
+PMT 263 (0x0107) for service 1608 (0x0648)
+PMT 265 (0x0109) for service 1609 (0x0649)
+PMT 153 (0x0099) for service 1604 (0x0644)
+PMT 260 (0x0104) for service 1603 (0x0643)
+PMT 257 (0x0101) for service 1601 (0x0641)
+NIT(act): (xxxx:12841:xxxx)
+        ----------------------------------------------------------
+        NIT(act): (4116:12841:1540)
+        find_transponder(4116:12841:1540):          -> found 'scanned_transponders(002)'  QAM_64   f = 585500 kHz I999B7C34D0T8G16Y0 (4116:12841:1540) (line 494)
+SDT(actual TS, transport_stream_id 1540 (0x0604) )
+        service = 10 HD (TEN Brisbane)
+        service = Nickelodeon (TEN Brisbane)
+        service = 10 HD (Ten Brisbane)
+        service = 10 (Ten Brisbane)
+        service = TVSN (Ten Brisbane)
+        service = 10 BOLD (Ten Brisbane)
+        service = 10 Peach (Ten Brisbane)
+        service = gecko (Ten Brisbane)
+        Info: no data from NIT(other) after 13 seconds
+tune to: QAM_64   f = 788500 kHz I999B7C34D0T8G16Y0 (12930:12930:2469) (time: 07:48.956)
+----------no signal----------
+tune to: QAM_AUTO f = 788500 kHz I999B7C999D0T999G999Y0 (12930:12930:2469) (time: 07:54.109)  (no signal)
+----------no signal----------
+tune to: QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796) (time: 07:59.269)
+ (0.304sec): SCL
+PAT (xxxx:xxxx:1796)
+PAT (xxxx:xxxx:1796)
+PMT 105 (0x0069) for service 105 (0x0069)
+PMT 115 (0x0073) for service 115 (0x0073)
+PMT 125 (0x007d) for service 125 (0x007d)
+PMT 155 (0x009b) for service 155 (0x009b)
+PMT 135 (0x0087) for service 135 (0x0087)
+PMT 195 (0x00c3) for service 195 (0x00c3)
+PMT 145 (0x0091) for service 145 (0x0091)
+PMT 175 (0x00af) for service 175 (0x00af)
+PMT 185 (0x00b9) for service 185 (0x00b9)
+NIT(act): (xxxx:12974:xxxx)
+        ----------------------------------------------------------
+        NIT(act): (4121:12974:1796)
+        find_transponder(4121:12974:1796):          -> found 'scanned_transponders(004)'  QAM_64   f = 599500 kHz I999B7C34D0T8G16Y0 (4121:12974:1796) (line 494)
+SDT(actual TS, transport_stream_id 1796 (0x0704) )
+        service = Nine-NBN Gold Coast (NBN Television)
+        service = 9HD Gold Coast (NBN Television)
+        service = 9Gem Gold Coast (NBN Television)
+        service = 9Go! Gold Coast (NBN Television)
+        service = 9GemHD Gold Coast (NBN Television)
+        service = 9Life Gold Coast (NBN Television)
+        service = Extra (NBN Television)
+        service = 9Go!HD Gold Coast (NBN Television)
+        service = Nine-NBN Gold Coast (NBN Television)
+        Info: no data from NIT(other) after 13 seconds
+tune to: QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960) (time: 08:12.945)
+ (0.308sec): SCL
+PAT (xxxx:xxxx:12960)
+PAT (xxxx:xxxx:12960)
+NIT(act): (xxxx:12914:xxxx)
+        ----------------------------------------------------------
+        NIT(act): (12914:12914:12960)
+        find_transponder(12914:12914:12960):          -> found 'scanned_transponders(005)'  QAM_64   f = 669500 kHz I999B7C34D0T8G16Y0 (12914:12914:12960) (line 494)
+PMT 1337 (0x0539) for service 2080 (0x0820)
+PMT 1338 (0x053a) for service 2082 (0x0822)
+PMT 1339 (0x053b) for service 2084 (0x0824)
+PMT 1340 (0x053c) for service 2085 (0x0825)
+PMT 1341 (0x053d) for service 2086 (0x0826)
+PMT 315 (0x013b) for service 1927 (0x0787)
+PMT 316 (0x013c) for service 1928 (0x0788)
+SDT(actual TS, transport_stream_id 12960 (0x32a0) )
+        service = GOLD ((null))
+        service = TVSN ((null))
+        service = 10 Gold Coast ((null))
+        service = 10Bold ((null))
+        service = 10Peach ((null))
+        service = 10HD Gold Coast ((null))
+        service = Sky News Regional ((null))
+        Info: no data from NIT(other) after 13 seconds
+tune to: QAM_64   f = 184500 kHz I999B7C34D0T8G16Y0 (12802:12802:816) (time: 08:26.958)
+ (0.408sec): SC
+ (0.508sec):
+ (0.816sec): SC
+ (0.916sec):
+ (1.348sec): SC
+ (1.452sec):
+ (1.760sec): SC
+ (1.860sec):
+ (2.300sec): SC
+ (2.400sec):
+ (2.708sec): SC
+ (2.808sec):
+ (3.268sec): SC
+ (3.372sec):
+ (3.676sec): SC
+ (3.780sec):
+----------no signal----------
+tune to: QAM_AUTO f = 184500 kHz I999B7C999D0T999G999Y0 (12802:12802:816) (time: 08:30.874)  (no signal)
+ (0.356sec): SC
+ (0.512sec):
+ (0.868sec): SC
+ (0.968sec):
+ (1.328sec): SC
+ (1.432sec):
+ (1.784sec): SC
+ (1.888sec):
+ (2.248sec): SC
+ (2.400sec):
+ (2.704sec): SC
+ (2.808sec):
+ (3.248sec): SC
+ (3.352sec):
+ (3.656sec): SC
+ (3.760sec):
+----------no signal----------
+tune to: QAM_64   f = 226500 kHz I999B7C34D0T8G16Y0 (4112:12884:579) (time: 08:34.734)
+ (0.460sec): SC
+ (0.560sec):
+ (0.916sec): SC
+ (0.988sec):
+ (1.396sec): SC
+ (1.500sec):
+ (1.856sec): SC
+ (1.952sec):
+ (2.360sec): SCL
+        Info: no data from PAT after 2 seconds
+        Info: no data from PAT after 2 seconds
+        Info: no data from SDT(actual) after 3 seconds
+        Info: no data from NIT(actual )after 13 seconds
+        Info: no data from NIT(other) after 13 seconds
+(time: 08:53.987) dumping lists (43 services)
+..
+Done, scan time: 08:53.987
