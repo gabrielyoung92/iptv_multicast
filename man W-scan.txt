@@ -1,0 +1,64 @@
+supertech@iptv:~$ man w_scan
+              16 = 4.0000 MSymbol/s
+              17 = 3.4500 MSymbol/s
+
+       -e     extended DVB-C scan flags.
+              NOTE: for experienced users only!
+              Any combination of these flags:
+              1 = use extended symbolrate list,
+              2 = extended QAM scan
+
+       -l TYPE
+              choose LNB type by name (DVB-S/S2 only) [default: UNIVERSAL],
+              "-l?" for list of known LNBs.
+
+       -D Nc  use DiSEqC committed switch position N (N = 0 .. 3)
+
+       -D Nu  use DiSEqC uncommitted switch position N (N = 0 .. 15)
+
+       -p <file>
+              use DiSEqC rotor Position file
+
+       -r N   use Rotor position N (N = 1 .. 255)
+
+       -P     ATSC scan: do not use ATSC PSIP tables for scan (PAT and PMT only)
+
+EXAMPLES
+       scan satellite 19.2° east:
+              w_scan -fs -s S19E2
+
+       scan cable (DVB), Germany:
+              w_scan -fc -c DE
+
+       scan aerial (DVB), France:
+              w_scan -ft -c FR
+
+       scan cable (ATSC), United States:
+              w_scan -fa -A2 -c US
+
+       scan aerial (ATSC), United States:
+              w_scan -fa -A1 -c US
+
+       use output format kaffeine:
+              w_scan [ OTHER OPTIONS ] -k
+
+       use output format zap/czap/xine:
+              w_scan [ OTHER OPTIONS ] -X
+
+       use output format dvbscan/scan/scan-s2 initial tuning data.
+              w_scan [ OTHER OPTIONS ] -x
+              NOTE: w_scan also performs full scans, so there is generally no need for this.
+
+REPORTING BUGS
+       see README file from source code package.
+
+AUTHOR
+       Written by W.Koehler
+
+       Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 2 any later version published by the Free Software Foundation.
+
+SEE ALSO
+       vdr(1)
+
+                                                                                                             28 March 2011                                                                                                    w_scan(1)
+ Manual page w_scan(1) line 137/198 (END) (press h for help or q 
