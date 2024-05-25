@@ -4,7 +4,7 @@ This particular card I purchased off of Amazon  [https://www.amazon.com.au/dp/B0
 Manufacturer website [https://www.hauppauge.com/pages/products/data_quadhd.html](https://www.hauppauge.com/pages/products/data_quadhd.html)<br>
 
 ## Firmware Required Debian
-The card requires firmware files to be in ```/lib/firmware/```
+The card requires firmware files to be in ```/lib/firmware/```<br>
 dvb-demod-si2168-b40-01.fw<br>
 dvb_driver_si2157_rom50.fw
 
