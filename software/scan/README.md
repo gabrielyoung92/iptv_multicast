@@ -9,6 +9,9 @@ For example, as I am located on the Gold Coast, Australia, i have 2 options
 1. /usr/share/dvb/dvb-t/au-GoldCoast<br>
 2. /usr/share/dvb/dvb-t/auto-Australia (My Prefered)
 
+Now that you have located your required file(s), you will need to either remember it's full path, or copy to your user home
+
+## Running scan
 
 
 

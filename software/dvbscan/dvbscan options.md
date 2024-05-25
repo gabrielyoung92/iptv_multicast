@@ -1,3 +1,4 @@
+```
 usage: dvbscan <options> as follows:
 -h                     help
 -adapter <id>          adapter to use (default 0)
@@ -29,3 +30,4 @@ usage: dvbscan <options> as follows:
      vdr12 <filename>|- Output in vdr 1.2.x format to <filename> or stdout.
      vdr13 <filename>|- Output in vdr 1.3.x format to <filename> or stdout.
 <initial scan file>
+```

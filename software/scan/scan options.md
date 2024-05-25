@@ -1,3 +1,4 @@
+```
 gab@iptv:~$ scan -h
 scan: invalid option -- 'h'
 
@@ -37,3 +38,5 @@ usage: scan [options...] [-c | initial-tuning-data-file]
         -C cs   Override default charset for service name/provider (default = ISO-6937)
         -D cs   Output charset (default = UTF-8)
 Supported charsets by -C/-D parameters can be obtained via 'iconv -l' command
+
+```
