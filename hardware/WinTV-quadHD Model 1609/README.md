@@ -1,14 +1,39 @@
 # Information
-The Quad PCI card appears to emulate as a PCI USB hub with 2x dualTuners attached as USB devices
-
-This particular card I purchased off of Amazon  [https://www.amazon.com.au/dp/B01FMO2FIS](https://www.amazon.com.au/dp/B01FMO2FIS)
-
-
-https://www.hauppauge.com/pages/products/data_quadhd.html
+The Quad PCI card appears to emulate as a PCI USB hub with 2x dualTuners attached as USB devices<br>
+This particular card I purchased off of Amazon  [https://www.amazon.com.au/dp/B01FMO2FIS](https://www.amazon.com.au/dp/B01FMO2FIS)<br>
+Manufacturer website [https://www.hauppauge.com/pages/products/data_quadhd.html](https://www.hauppauge.com/pages/products/data_quadhd.html)<br>
 
 ## Firmware Required Debian
+The card requires firmware files to be in ```/lib/firmware/```
 dvb-demod-si2168-b40-01.fw<br>
 dvb_driver_si2157_rom50.fw
+
+## /dev/
+```
+gab@iptv:/dev/dvb$ tree
+.
+├── adapter0
+│   ├── demux0
+│   ├── dvr0
+│   ├── frontend0
+│   └── net0
+├── adapter1
+│   ├── demux0
+│   ├── dvr0
+│   ├── frontend0
+│   └── net0
+├── adapter2
+│   ├── demux0
+│   ├── dvr0
+│   ├── frontend0
+│   └── net0
+└── adapter3
+    ├── demux0
+    ├── dvr0
+    ├── frontend0
+    └── net0
+
+```
 
 ## lspci
 ```
@@ -17,6 +42,8 @@ dvb_driver_si2157_rom50.fw
 
 ## lsusb
 ```
+lsusb -version
+
 Bus 003 Device 003: ID 2040:8265 Hauppauge dualHD
 Couldn't open device, some information will be missing
 Device Descriptor:
