@@ -1,17 +1,19 @@
 # iptv_multicast
-As per https://dirtyoptics.com/raspberry-pi-tv-server-using-tvheadend/   https://www.youtube.com/playlist?list=PLGvkW0sr-RWZHi-5XtnWxIjMLhjG8UffL
+This is my work on multicast IPTV for a project at work using the LR UR series (Digital Signage) TV's<br>
 
-As per https://github.com/fishscene/TV2MultiCast
+The plan is to receive TV Stations over the air and send out the TS streams over an IPv4/IPv6 network by multicast using Netgear AV Line M4250 network switches
+There will also be other sources of video such as unicast video, RTSP, etc
 
-https://www.hospitableit.com/howto/streaming-dvb-t-over-an-ip-network-using-mumudvb-on-a-raspberry-pi-3/
+A big source of information has been from Tall Paul Tech's YouTube channel (CWNE88)<br>
+https://www.youtube.com/playlist?list=PLGvkW0sr-RWZHi-5XtnWxIjMLhjG8UffL
 
 
-https://angrytechnician.wordpress.com/category/technical-articles/iptv/
-
-https://goughlui.com/2013/11/10/project-building-a-dvb-t-tv-tuner-server-with-mumudvb/
-
-https://github.com/braice/MuMuDVB
-
+## Resources
+https://github.com/fishscene/TV2MultiCast<br>
+https://www.hospitableit.com/howto/streaming-dvb-t-over-an-ip-network-using-mumudvb-on-a-raspberry-pi-3/<br>
+https://angrytechnician.wordpress.com/category/technical-articles/iptv/<br>
+https://goughlui.com/2013/11/10/project-building-a-dvb-t-tv-tuner-server-with-mumudvb/<br>
+https://github.com/braice/MuMuDVB<br>
 https://mumudvb.net/documentation/asciidoc/mumudvb-2.1.0/README_CONF.html
 
 ## Hardware
@@ -210,32 +212,4 @@ write memory
 show mld
 show mldsnooping mrouter interface 0/4
 show mldsnooping mrouter vlan 101
-```
-
-
-
-# tvheadend
-
-Install curl
-```
-sudo apt install curl -y
-```
-
-Setup the official source as per<be>
-https://tvheadend.org/p/downloads
-
-```
-curl -1sLf 'https://dl.cloudsmith.io/public/tvheadend/tvheadend/setup.deb.sh' | sudo -E bash
-```
-
-Install
-```
-sudo apt install tvheadend -y
-```
-```
- After installation Tvheadend can be accessed via HTTP on port 9981. From 
-this machine you can point your web-browser to http://localhost:9981/.
-
-If you want to completely remove configuration, use your package managers
---purge option, e.g, apt-get remove --purge tvheadend*
 ```
