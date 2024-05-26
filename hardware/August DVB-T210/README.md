@@ -3,14 +3,18 @@ This is a single USB DVB-T tuner<>
 I purchased multiple of these from amazon https://www.amazon.com.au/dp/B008D8K50Q
 
 ## Firmware Required Debian
-
-
 ```
 [   37.258083] si2157 21-0060: firmware: failed to load dvb_driver_si2157_rom50.fw (-2)
 [   37.258118] si2157 21-0060: firmware: failed to load dvb_driver_si2157_rom50.fw (-2)
 [   37.258153] si2157 21-0060: firmware: failed to load dvb-tuner-si2157-a30-01.fw (-2)
 [   37.258181] si2157 21-0060: firmware: failed to load dvb-tuner-si2157-a30-01.fw (-2)
 ```
+
+## Hardare
+CY7C68013A-56
+SB 2.0 Peripheral controller with 16K RAM, 24 GPIOs, 56-pin SSOP for non-battery powered applications
+https://www.infineon.com/cms/en/product/universal-serial-bus/usb-2.0-peripheral-controllers/ez-usb-fx2lp-fx2g2-usb-2.0-peripheral-controller/cy7c68013a-56pvxc/
+
 
 
 ## dmesg
