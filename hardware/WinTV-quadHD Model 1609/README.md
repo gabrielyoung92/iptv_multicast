@@ -13,9 +13,9 @@ The card requires firmware files to be in ```/lib/firmware/```<br>
 	- PCIe to Dual USB3.1 Host controller 
 	- https://www.asmedia.com.tw/product/55AYQ83xg4uy6Uj0/0C8YQ4asx4yt2JR4/3142
 	- lspci<br>
-	```
-	02:00.0 USB controller: ASMedia Technology Inc. ASM2142/ASM3142 USB 3.1 Host Controller
-	```
+```
+02:00.0 USB controller: ASMedia Technology Inc. ASM2142/ASM3142 USB 3.1 Host Controller
+```
 - 2x eMPIA EM28274
 	- This chip 
 	- https://linuxtv.org/wiki/index.php/Em28xx_devices
