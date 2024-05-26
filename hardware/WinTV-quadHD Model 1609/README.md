@@ -1,5 +1,5 @@
 # Information
-The Quad PCI card appears to emulate as a PCI USB hub with 2x dualTuners attached as USB devices<br>
+The Quad PCI card has a PCIe to Dual USB3.1 hub with 2x dualTuners attached as USB devices<br>
 This particular card I purchased off of Amazon  [https://www.amazon.com.au/dp/B01FMO2FIS](https://www.amazon.com.au/dp/B01FMO2FIS)<br>
 Manufacturer website [https://www.hauppauge.com/pages/products/data_quadhd.html](https://www.hauppauge.com/pages/products/data_quadhd.html)<br>
 
@@ -17,11 +17,15 @@ The card requires firmware files to be in ```/lib/firmware/```<br>
 02:00.0 USB controller: ASMedia Technology Inc. ASM2142/ASM3142 USB 3.1 Host Controller
 ```
 - 2x eMPIA EM28274
-	- This chip 
+	- This chip is a "dualHD". Given there are 2 of these devices, this makes a quad tuner.  
 	- https://linuxtv.org/wiki/index.php/Em28xx_devices
 	- https://linuxtv.org/wiki/index.php/Hauppauge_WinTV-dualHD
 	- https://empiatech.com/wp/28xxx-usb-tv/
 - 4x Si2168
+	- There are 2 of these chips connected to each EM28274
+	- DVB-T2/T/C Digital TV Demodulator
+ 	- https://www.skyworksinc.com/en/Products/TV-and-Video/Si2168-Digital-TV-Demodulators/Si2168
+  	- https://www.linuxtv.org/wiki/index.php/Silicon_Labs_Si2168
 
 ## /dev/
 ```
