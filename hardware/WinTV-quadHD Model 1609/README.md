@@ -8,6 +8,13 @@ The card requires firmware files to be in ```/lib/firmware/```<br>
 - dvb-demod-si2168-b40-01.fw<br>
 - dvb_driver_si2157_rom50.fw
 
+## Hardware
+- 1x asmedia ASM3142
+	- PCIe to Dual USB3.1 Host controller 
+	- https://www.asmedia.com.tw/product/55AYQ83xg4uy6Uj0/0C8YQ4asx4yt2JR4/3142
+- 2x eMPIA EM28274
+- 4x Si2168
+
 ## /dev/
 ```
 gab@iptv:/dev/dvb$ tree
