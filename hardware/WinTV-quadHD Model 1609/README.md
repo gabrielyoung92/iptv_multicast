@@ -3,12 +3,17 @@ The Quad PCI card has a PCIe to Dual USB3.1 hub with 2x dualTuners attached as U
 This particular card I purchased off of Amazon  [https://www.amazon.com.au/dp/B01FMO2FIS](https://www.amazon.com.au/dp/B01FMO2FIS)<br>
 Manufacturer website [https://www.hauppauge.com/pages/products/data_quadhd.html](https://www.hauppauge.com/pages/products/data_quadhd.html)<br>
 
+![](https://raw.githubusercontent.com/gabrielyoung92/iptv_multicast/main/hardware/WinTV-quadHD%20Model%201609/github_CardFull.jpg)
+
+
 ## Firmware Required Debian
 The card requires firmware files to be in ```/lib/firmware/```<br>
 - dvb-demod-si2168-b40-01.fw<br>
 - dvb_driver_si2157_rom50.fw
 
 ## Hardware
+![](https://raw.githubusercontent.com/gabrielyoung92/iptv_multicast/main/hardware/WinTV-quadHD%20Model%201609/github_Hardware.jpg)
+
 - 1x asmedia ASM3142
 	- PCIe to Dual USB3.1 Host controller 
 	- https://www.asmedia.com.tw/product/55AYQ83xg4uy6Uj0/0C8YQ4asx4yt2JR4/3142
