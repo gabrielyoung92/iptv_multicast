@@ -21,6 +21,12 @@ The card requires firmware files to be in ```/lib/firmware/```<br>
 	- https://linuxtv.org/wiki/index.php/Em28xx_devices
 	- https://linuxtv.org/wiki/index.php/Hauppauge_WinTV-dualHD
 	- https://empiatech.com/wp/28xxx-usb-tv/
+	- lsusb (More information below)
+	
+```
+Bus 003 Device 003: ID 2040:8265 Hauppauge dualHD
+Bus 003 Device 002: ID 2040:8265 Hauppauge dualHD
+```
 - 4x Si2168
 	- There are 2 of these chips connected to each EM28274
 	- DVB-T2/T/C Digital TV Demodulator
