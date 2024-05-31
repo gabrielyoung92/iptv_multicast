@@ -45,3 +45,24 @@ Use the bash script to create all the seperate conf files
 
 
  /usr/bin/mumudvb -d -c conf/613500_SBS-Brisbane.mumudvb.conf 
+
+
+
+## SAP Server
+```
+sudo apt install minisapserver -y
+```
+
+Default config
+```
+sudo nano /etc/sap.cfg
+```
+
+SAP Messages
+Destination: 224.2.127.254 
+Port 9875
+
+
+```
+
+`
