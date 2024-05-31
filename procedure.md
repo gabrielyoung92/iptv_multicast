@@ -42,3 +42,6 @@ The file that is generated is a CSV file using ":" as the delinamtor
 
 
 Use the bash script to create all the seperate conf files
+
+
+ /usr/bin/mumudvb -d -c conf/613500_SBS-Brisbane.mumudvb.conf 
